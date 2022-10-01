@@ -29,8 +29,7 @@ val provider = GoogleFont.Provider(
 
 @OptIn(ExperimentalTextApi::class)
 val montserratFonts = FontFamily(
-    Font(googleFont = GoogleFont("Montserrat"), fontProvider = provider, weight = FontWeight(400)),
-    Font(googleFont = GoogleFont("Montserrat"), fontProvider = provider, weight = FontWeight(500)),
+    Font(font.roboto_regular)
 )
 
 val robotoFonts = FontFamily(
